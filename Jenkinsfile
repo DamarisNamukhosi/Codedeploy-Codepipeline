@@ -1,6 +1,6 @@
 pipeline {
   agent any
-  Stages {
+  stages {
     stage('git clone') {
       steps {
       sh 'git clone https://github.com/DamarisNamukhosi/Codedeploy-Codepipeline.git'
