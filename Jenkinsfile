@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('git clone') {
       steps {
-      sh 'git clone https://github.com/DamarisNamukhosi/Codedeploy-Codepipeline.git'
+      sh 'git clone https://github.com/DamarisNamukhosi/Codedeploy-Codepipeline.git /var/www/html'
       }
     }
   }
